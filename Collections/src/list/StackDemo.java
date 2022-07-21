@@ -14,7 +14,7 @@ public class StackDemo {
 		System.out.print(x.peek()+ " ");
 		x.pop();
 		
-		Iterator itr = x.iterator();
+		Iterator<Float> itr = x.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
